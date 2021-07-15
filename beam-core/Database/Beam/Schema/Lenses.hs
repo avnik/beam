@@ -4,7 +4,11 @@ module Database.Beam.Schema.Lenses
     ( tableLenses
     , TableLens(..)
 
-    , dbLenses ) where
+    , dbLenses
+
+    -- * Exported so we can override defaults
+    , GTableLenses(..)
+    ) where
 
 import Database.Beam.Schema.Tables
 
